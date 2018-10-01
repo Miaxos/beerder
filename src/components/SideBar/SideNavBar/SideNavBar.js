@@ -5,7 +5,10 @@ class SideNavBar extends React.Component {
   render() {
     return (
       <div className="sidenavbar">
-        SideNavBar
+        <ul>
+          <li className="active">Match</li>
+          <li>Bars</li>
+        </ul>
       </div>
     );
   }

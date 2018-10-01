@@ -6,9 +6,7 @@ class MatchBigCard extends React.Component {
   render() {
     return (
       <div className="matchbigcard-rec-center">
-        <div className="matchbigcard">
-          Match big card
-        </div>
+        <div className="matchbigcard" />
         <MatchTips />
       </div>
     );
