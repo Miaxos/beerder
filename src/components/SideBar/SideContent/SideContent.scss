@@ -1,0 +1,16 @@
+.sidecontent {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  &::after {
+    content: '';
+    flex-grow: 1;
+    width: 77px;
+    padding-bottom: 35%;
+    margin: 8px;
+  }
+}
