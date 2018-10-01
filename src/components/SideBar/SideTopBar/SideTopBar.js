@@ -4,7 +4,7 @@ import './SideTopBar.scss';
 class SideTopBar extends React.Component {
   render() {
     return (
-      <div>
+      <div className="sidetopbar">
         side top bar
       </div>
     );

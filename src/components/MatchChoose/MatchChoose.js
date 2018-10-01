@@ -4,7 +4,7 @@ import './MatchChoose.scss';
 class MatchChoose extends React.Component {
   render() {
     return (
-      <main>
+      <main className="main-content">
         Content
       </main>
     );
