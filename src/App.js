@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './index.scss';
+import './styles/index.scss';
 import SideBar from './components/SideBar';
 import MatchChoose from './components/MatchChoose';
 
