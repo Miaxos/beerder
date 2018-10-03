@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Image from '../../../MatchBigCard/kastel.jpg';
+import Image from '../../assets/kastel.jpg';
 import './Match.scss';
 
 class Match extends React.Component {
@@ -17,10 +17,13 @@ class Match extends React.Component {
   render() {
     const { name, image } = this.props;
     return (
-      <div className="match">
+      <div
+        className="match"
+        type="button"
+      >
         <div
           className="photo"
-          style={{ 'background-image': `url('${image}')` }}
+          style={{ backgroundImage: `url('${image}')` }}
         >
           <span className="photo-title">{name}</span>
         </div>
