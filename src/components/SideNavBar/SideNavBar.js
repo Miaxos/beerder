@@ -7,7 +7,7 @@ class SideNavBar extends React.Component {
       <div className="sidenavbar">
         <ul>
           <li className="active">Matchs</li>
-          <li>Bars</li>
+          {/* <li>Bars</li> */}
         </ul>
       </div>
     );
