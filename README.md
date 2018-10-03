@@ -2,11 +2,12 @@
 
 This is a little project for fun.
 
-Preview
+![Preview](demo.gif)
+
 
 # Demo
 
-Live demo here: Link
+Live demo (here)[https://upbeat-yalow-a83a04.netlify.com/]
 
 # Start
 
